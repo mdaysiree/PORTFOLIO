@@ -487,28 +487,67 @@
       .img-anim {
         animation: fadeRight 1.3s ease forwards;
       }
-       @media (max-width: 1024px) {
-        section {
-          padding: 8% 5%;
-          min-height: auto;
-        }
+      
+      @media (max-width: 768px) {
 
-        .hero {
-          flex-direction: column;
-          text-align: center;
-          gap: 2rem;
-        }
+  .line {
+    width: 100% !important;
+  }
 
-        .line {
-          width: 100%;
-        }
+  .x-bg1, .x-bg2 {
+    width: 250px !important;
+    height: 350px !important;
+    opacity: 0.15 !important;
+  }
 
-        .x-bg1,
-        .x-bg2 {
-          width: 500px;
-          height: 600px;
-          opacity: 0.4;
-        }
+  .about-image-container {
+    height: auto !important;
+  }
+
+  .about-image-container img {
+    position: relative !important;
+    height: 300px !important;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+
+  .skill-card {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .projects-container {
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+
+  .project-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .contact-wrapper {
+    flex-direction: column !important;
+  }
+
+  .social-icons {
+    gap: 20px !important;
+    margin-left: 0 !important;
+  }
+
+  .social-icons img,
+  .resume-icon img,
+  .linkedin-icon img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
     </style>
   </head>
   <body>
