@@ -487,7 +487,28 @@
       .img-anim {
         animation: fadeRight 1.3s ease forwards;
       }
-      
+       @media (max-width: 1024px) {
+        section {
+          padding: 8% 5%;
+          min-height: auto;
+        }
+
+        .hero {
+          flex-direction: column;
+          text-align: center;
+          gap: 2rem;
+        }
+
+        .line {
+          width: 100%;
+        }
+
+        .x-bg1,
+        .x-bg2 {
+          width: 500px;
+          height: 600px;
+          opacity: 0.4;
+        }
     </style>
   </head>
   <body>
